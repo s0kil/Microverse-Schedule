@@ -6,7 +6,7 @@
     "dev": "sapper dev",
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
-    "start": "node __sapper__/build"
+    "serveExport": "PORT=3000 pnpx serve __sapper__/export"
   },
   "dependencies": {
     "compression": "^1.7.4",
